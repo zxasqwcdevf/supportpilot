@@ -104,6 +104,8 @@ python -m scripts.benchmark --suite model --dataset development \
 
 ## 주요 자료
 
+- [공개용 실험 결과 요약](docs/PUBLIC_RESULTS.md): 학습·test·서빙·API·CI 결과와 각 평가의 한계.
+
 - [CPU 자동 테스트](docs/CI.md): main push·PR에서 Python 3.12 단위·API 테스트 실행. GPU 추론 품질은 별도 평가.
 
 - [데모 진행 가이드](docs/DEMO.md)

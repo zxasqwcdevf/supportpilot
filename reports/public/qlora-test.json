@@ -1,0 +1,266 @@
+{
+  "export_version": "1.0",
+  "kind": "comparison",
+  "scope": "aggregate_metrics_only",
+  "provenance": "user_provided_WSL_report",
+  "limitations": "Source text, cases, paths and environment details omitted. Aggregates are not an independent rerun.",
+  "split": "test",
+  "metrics": {
+    "base": {
+      "all": {
+        "total": 16,
+        "passed": 16,
+        "metrics": {
+          "decision": {
+            "passed": 16,
+            "total": 16,
+            "rate": 1.0
+          },
+          "json_object": {
+            "passed": 16,
+            "total": 16,
+            "rate": 1.0
+          },
+          "reference_ids": {
+            "passed": 8,
+            "total": 8,
+            "rate": 1.0
+          },
+          "schema": {
+            "passed": 16,
+            "total": 16,
+            "rate": 1.0
+          },
+          "user_facts": {
+            "passed": 4,
+            "total": 4,
+            "rate": 1.0
+          }
+        },
+        "confusion": {
+          "tp": 8,
+          "tn": 8,
+          "fp": 0,
+          "fn": 0,
+          "invalid": 0
+        },
+        "latency_ms": {
+          "p50": 502.17,
+          "p95": 1066.124
+        }
+      },
+      "by_task": {
+        "answerability": {
+          "total": 8,
+          "passed": 8,
+          "metrics": {
+            "decision": {
+              "passed": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "json_object": {
+              "passed": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "reference_ids": {
+              "passed": 4,
+              "total": 4,
+              "rate": 1.0
+            },
+            "schema": {
+              "passed": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "user_facts": {
+              "passed": 4,
+              "total": 4,
+              "rate": 1.0
+            }
+          },
+          "confusion": {
+            "tp": 4,
+            "tn": 4,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "latency_ms": {
+            "p50": 686.73,
+            "p95": 1098.727
+          }
+        },
+        "direct_evidence": {
+          "total": 8,
+          "passed": 8,
+          "metrics": {
+            "decision": {
+              "passed": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "json_object": {
+              "passed": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "reference_ids": {
+              "passed": 4,
+              "total": 4,
+              "rate": 1.0
+            },
+            "schema": {
+              "passed": 8,
+              "total": 8,
+              "rate": 1.0
+            }
+          },
+          "confusion": {
+            "tp": 4,
+            "tn": 4,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "latency_ms": {
+            "p50": 502.17,
+            "p95": 628.252
+          }
+        }
+      }
+    },
+    "adapter": {
+      "all": {
+        "total": 16,
+        "passed": 16,
+        "metrics": {
+          "decision": {
+            "passed": 16,
+            "total": 16,
+            "rate": 1.0
+          },
+          "json_object": {
+            "passed": 16,
+            "total": 16,
+            "rate": 1.0
+          },
+          "reference_ids": {
+            "passed": 8,
+            "total": 8,
+            "rate": 1.0
+          },
+          "schema": {
+            "passed": 16,
+            "total": 16,
+            "rate": 1.0
+          },
+          "user_facts": {
+            "passed": 4,
+            "total": 4,
+            "rate": 1.0
+          }
+        },
+        "confusion": {
+          "tp": 8,
+          "tn": 8,
+          "fp": 0,
+          "fn": 0,
+          "invalid": 0
+        },
+        "latency_ms": {
+          "p50": 899.366,
+          "p95": 2162.162
+        }
+      },
+      "by_task": {
+        "answerability": {
+          "total": 8,
+          "passed": 8,
+          "metrics": {
+            "decision": {
+              "passed": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "json_object": {
+              "passed": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "reference_ids": {
+              "passed": 4,
+              "total": 4,
+              "rate": 1.0
+            },
+            "schema": {
+              "passed": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "user_facts": {
+              "passed": 4,
+              "total": 4,
+              "rate": 1.0
+            }
+          },
+          "confusion": {
+            "tp": 4,
+            "tn": 4,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "latency_ms": {
+            "p50": 1335.186,
+            "p95": 2184.549
+          }
+        },
+        "direct_evidence": {
+          "total": 8,
+          "passed": 8,
+          "metrics": {
+            "decision": {
+              "passed": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "json_object": {
+              "passed": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "reference_ids": {
+              "passed": 4,
+              "total": 4,
+              "rate": 1.0
+            },
+            "schema": {
+              "passed": 8,
+              "total": 8,
+              "rate": 1.0
+            }
+          },
+          "confusion": {
+            "tp": 4,
+            "tn": 4,
+            "fp": 0,
+            "fn": 0,
+            "invalid": 0
+          },
+          "latency_ms": {
+            "p50": 897.582,
+            "p95": 1264.314
+          }
+        }
+      }
+    }
+  },
+  "test_used": true,
+  "prompt_profile": "explicit-v3",
+  "reference_correction_count": 0,
+  "timings_reused": false,
+  "dataset_sha256": "c47976d3ddd41af84de3780a6ab742c96047b5ec824ab6b28cd903925b47510e",
+  "source_sha256": "75a556739e0ef4e4f2e50385e7e89a82c2a6f73c0cf11bc1b0524345f319504f"
+}

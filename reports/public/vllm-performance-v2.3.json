@@ -1,0 +1,41 @@
+{
+  "export_version": "1.0",
+  "kind": "performance",
+  "scope": "aggregate_metrics_only",
+  "provenance": "user_provided_WSL_report",
+  "limitations": "Source text, cases, paths and environment details omitted. Aggregates are not an independent rerun.",
+  "backend": "vllm",
+  "runs": {
+    "1": {
+      "requests": 24,
+      "completed_without_pipeline_error": 24,
+      "errors": 0,
+      "successful_p50_ms": 1524.613,
+      "successful_p95_ms": 1633.71,
+      "all_p95_ms": 1633.71,
+      "wall_seconds": 26.179,
+      "completed_requests_per_second": 0.917
+    },
+    "2": {
+      "requests": 24,
+      "completed_without_pipeline_error": 24,
+      "errors": 0,
+      "successful_p50_ms": 1632.6,
+      "successful_p95_ms": 1749.417,
+      "all_p95_ms": 1749.417,
+      "wall_seconds": 14.32,
+      "completed_requests_per_second": 1.676
+    },
+    "4": {
+      "requests": 24,
+      "completed_without_pipeline_error": 24,
+      "errors": 0,
+      "successful_p50_ms": 1763.712,
+      "successful_p95_ms": 1963.464,
+      "all_p95_ms": 1963.464,
+      "wall_seconds": 8.018,
+      "completed_requests_per_second": 2.993
+    }
+  },
+  "source_sha256": "761cd6dea97a1d178ff80d34051d8f5d7f0f96638bd3701386aa106fd65af8c4"
+}
