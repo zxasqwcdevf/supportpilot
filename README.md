@@ -2,6 +2,25 @@
 
 한국어 정책을 근거로 답변 초안을 작성하고 상담원이 수정·승인하는 로컬 sLLM 고객지원 작업실입니다. 정책은 직접 작성한 가상 서비스 데이터입니다.
 
+[포트폴리오 PDF](output/pdf/SupportPilot_AI_Portfolio.pdf) · [3분 데모 진행 가이드](docs/DEMO.md) · [QLoRA 비교](docs/QLORA_COMPARISON.md) · [서빙 성능](docs/EXPERIMENT_RESULTS.md)
+
+## 상담 작업실 데모
+
+문의 입력 → 근거 확인 → 초안 수정 → 승인·반려 → 저장 이력 확인 흐름을 구현했습니다. 아래는 실제 WSL 로컬 UI에서 가상 문의의 답변을 수정·승인한 화면입니다. 녹화 영상이 아닌 정적 캡처입니다.
+
+<details>
+<summary>실제 상담 화면 펼쳐 보기</summary>
+
+<img src="docs/media/workspace-approved.jpg" alt="비밀번호 재설정 문의의 초안, 상담원 수정 답변, 승인 이력과 정책 근거를 표시한 SupportPilot 화면" width="304">
+
+</details>
+
+[상담 화면 원본 보기](docs/media/workspace-approved.jpg)
+
+데모 순서는 일반 문의, 정책 밖 질문, 잘못된 지시, 환불 검토, 상담원 수정·승인입니다. [데모 가이드](docs/DEMO.md)에 입력 예시와 예상 동작을 정리했습니다.
+
+**공개 준비 검증:** 사용자 WSL 환경에서 `pytest` 94개와 subtest 8개 통과를 확인했습니다. 이 기록은 자동 GitHub CI 상태가 아니며, 상담 UI의 승인 기록은 고객 전송이나 실제 환불 처리를 의미하지 않습니다.
+
 ## 구현 범위
 
 - BM25 + multilingual-e5-small 검색 결과를 RRF로 결합
