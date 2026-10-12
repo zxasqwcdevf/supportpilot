@@ -1,0 +1,4 @@
+{"question":"연간 결제 환불이 가능한가요?","expected_id":"refund-v1"}
+{"question":"비밀번호를 잊어버렸어요","expected_id":"password-v1"}
+{"question":"프로 가격 알려줘","expected_id":"plan-v1"}
+{"question":"달에 서버를 설치할 수 있나요?","expected_id":null}

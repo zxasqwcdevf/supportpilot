@@ -1,0 +1,20 @@
+{"id":"val-reset-expiry","question":"암호 재설정 메일을 받은 지 40분 됐는데 링크를 쓸 수 있나요?","relevant":["password-v1"]}
+{"id":"val-pro-capacity","question":"프로 상품에 직원 여섯 명을 등록할 수 있어요?","relevant":["plan-v1","invite-v1"]}
+{"id":"val-invoice-tax","question":"세금계산서 발행을 신청하고 싶습니다","relevant":["invoice-v1"]}
+{"id":"val-export-attachments","question":"CSV에 첨부파일도 들어가나요?","relevant":["export-v1"]}
+{"id":"val-invite-expiry","question":"초대한 동료가 이틀 지나서 링크를 눌렀어요. 초대 유효기간은?","relevant":["invite-v1"]}
+{"id":"val-delete-cancel","question":"계정 삭제 접수 후 열흘 지났는데 취소할 수 있나요?","relevant":["delete-v1"]}
+{"id":"val-downgrade-billing","question":"낮은 요금제로 바꾸면 다음 청구부터 적용되나요?","relevant":["change-plan-v1"]}
+{"id":"val-upgrade-fee","question":"업그레이드할 때 차액을 지불해야 하나요?","relevant":["change-plan-v1"]}
+{"id":"val-auth-sms","question":"보안 인증을 문자 메시지로 받을 수 있어요?","relevant":["security-v1"]}
+{"id":"val-recovery-code","question":"이중 인증 복구 코드는 어떻게 관리하나요?","relevant":["security-v1"]}
+{"id":"val-outage-eta","question":"접속 장애가 있는데 복구가 몇 시에 되나요?","relevant":["incident-v1"]}
+{"id":"val-refund-used","question":"연간 요금제를 사용한 적 있는데 결제 취소 요청은 누가 확인하나요?","relevant":["refund-v1"]}
+{"id":"val-unknown-email-change","question":"가입 이메일 주소를 다른 주소로 변경하는 방법은?","relevant":[]}
+{"id":"val-unknown-api-key","question":"프로젝트 API 키를 발급받는 메뉴는?","relevant":[]}
+{"id":"val-unknown-mobile","question":"모바일 앱을 설치할 수 있는 링크 알려주세요","relevant":[]}
+{"id":"val-unknown-enterprise","question":"기업 전용 요금제의 가격과 인원 한도는?","relevant":[]}
+{"id":"val-unknown-storage","question":"첨부 파일 저장 용량을 늘리는 비용은?","relevant":[]}
+{"id":"val-unknown-sso","question":"보안 설정에서 SAML 로그인을 연결하는 방법은?","relevant":[]}
+{"id":"val-unknown-integration","question":"팀 설정에서 Slack 알림을 연결할 수 있나요?","relevant":[]}
+{"id":"val-unknown-currency","question":"결제 통화를 달러로 바꾸고 싶어요","relevant":[]}

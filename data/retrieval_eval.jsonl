@@ -1,0 +1,14 @@
+{"id":"password-exact","question":"비밀번호 재설정 방법","relevant":["password-v1"]}
+{"id":"password-paraphrase","question":"가입 이메일로 오는 재설정 링크는 얼마나 유효한가요?","relevant":["password-v1"]}
+{"id":"price","question":"Pro 월 비용 얼마인가요?","relevant":["plan-v1"]}
+{"id":"invoice","question":"결제한 증빙 PDF 어디서 받나요?","relevant":["invoice-v1"]}
+{"id":"invite","question":"동료에게 초대 이메일을 보내고 싶어요","relevant":["invite-v1"]}
+{"id":"export","question":"프로젝트를 CSV로 저장하고 싶어요","relevant":["export-v1"]}
+{"id":"delete","question":"탈퇴 신청을 취소할 수 있는 기간은?","relevant":["delete-v1"]}
+{"id":"incident","question":"오류 발생 시간과 메시지는 어디에 전달하나요?","relevant":["incident-v1"]}
+{"id":"downgrade","question":"다운그레이드는 언제 적용되나요?","relevant":["change-plan-v1"]}
+{"id":"security","question":"인증 앱으로 계정을 보호하고 싶어요","relevant":["security-v1"]}
+{"id":"refund","question":"연간 결제 환불 정책","relevant":["refund-v1"]}
+{"id":"multi-invite","question":"Pro 팀원 한도와 초대 방법","relevant":["plan-v1","invite-v1"]}
+{"id":"unknown","question":"달에 서버를 설치할 수 있나요?","relevant":[]}
+{"id":"unknown-medical","question":"감기에 먹을 약 추천해주세요","relevant":[]}

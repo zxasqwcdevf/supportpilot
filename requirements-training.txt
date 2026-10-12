@@ -1,0 +1,5 @@
+# Install CUDA-enabled torch separately; isolate from the API and vLLM environments.
+transformers>=4.57,<5
+peft>=0.18,<0.19
+bitsandbytes==0.50.2
+accelerate>=1.10,<2

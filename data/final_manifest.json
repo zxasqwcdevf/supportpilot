@@ -1,0 +1,6 @@
+{
+  "version": "1.0",
+  "cases": 24,
+  "sha256": "d25d31311c28231ed93847a8d80e0e0027f5fb26145628d73fda74cf96c053ec",
+  "purpose": "Frozen first-pass test; do not tune on results"
+}
