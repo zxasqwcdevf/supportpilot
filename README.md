@@ -1,5 +1,7 @@
 # SupportPilot
 
+[![CPU tests](https://github.com/zxasqwcdevf/supportpilot/actions/workflows/ci.yml/badge.svg)](https://github.com/zxasqwcdevf/supportpilot/actions/workflows/ci.yml)
+
 한국어 정책을 근거로 답변 초안을 작성하고 상담원이 수정·승인하는 로컬 sLLM 고객지원 작업실입니다. 정책은 직접 작성한 가상 서비스 데이터입니다.
 
 [포트폴리오 PDF](output/pdf/SupportPilot_AI_Portfolio.pdf) · [3분 데모 진행 가이드](docs/DEMO.md) · [QLoRA 비교](docs/QLORA_COMPARISON.md) · [서빙 성능](docs/EXPERIMENT_RESULTS.md)
@@ -101,6 +103,8 @@ python -m scripts.benchmark --suite model --dataset development \
 `model_loaded:false`는 원격 모델 로딩 상태를 검사하지 않는 현재 health 필드입니다. 실제 요청 성공과 warmup 정보를 함께 확인하세요.
 
 ## 주요 자료
+
+- [CPU 자동 테스트](docs/CI.md): main push·PR에서 Python 3.12 단위·API 테스트 실행. GPU 추론 품질은 별도 평가.
 
 - [데모 진행 가이드](docs/DEMO.md)
 - [서빙 성능 비교](docs/EXPERIMENT_RESULTS.md)
